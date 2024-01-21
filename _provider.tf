@@ -9,9 +9,10 @@ terraform {
 
 # Set the variable value in *.tfvars file
 # or using -var="do_token=..." CLI option
+# or an envriroment variable with TF_VAR_ prefix
 variable "digitalocean_token" {}
 
-#Configure the DigitalOcean Provider
+# Configure the DigitalOcean Provider
 provider "digitalocean" {
   token = var.digitalocean_token
 }
