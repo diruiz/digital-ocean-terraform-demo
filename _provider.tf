@@ -1,3 +1,4 @@
+# do provider doc: https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs
 terraform {
   required_providers {
     digitalocean = {
