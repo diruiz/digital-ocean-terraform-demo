@@ -8,6 +8,6 @@ resource "digitalocean_record" "www" {
   domain = "${digitalocean_domain.diegokbsdomain.name}"
   type   = "A"
   name   = "www"
-  ttl    = "10"
+  ttl    = "50"
   value  = "${digitalocean_loadbalancer.public.ip}"
 }
