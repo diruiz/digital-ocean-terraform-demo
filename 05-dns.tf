@@ -1,6 +1,6 @@
 # Create a new domain
 resource "digitalocean_domain" "diegokbsdomain" {
-  name = "diegokbstestdomain.com"
+  name = "diegokbstestdo.com"
 }
 
 # Add a record to the domain
